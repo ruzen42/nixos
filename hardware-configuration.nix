@@ -43,24 +43,6 @@
       options = [ "fmask=0022" "dmask=0022" ];
     };
 
-  fileSystems."/home/ruzen42/src" =
-    { device = "storage/src";
-      fsType = "zfs";
-      options = [ "zfsutil" ];
-    };
-
-  fileSystems."/mnt" =
-    { device = "storage/data";
-      fsType = "zfs";
-      options = [ "zfsutil" ];
-    };
-
-  fileSystems."/mnt/vm" =
-    { device = "storage/vm";
-      fsType = "zfs";
-      options = [ "zfsutil" ];
-    };
-
   swapDevices =
     [ { device = "/dev/disk/by-uuid/07ae7586-b0cd-4caa-84fb-555b11b781b8"; }
     ];

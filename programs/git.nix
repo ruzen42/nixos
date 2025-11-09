@@ -3,8 +3,9 @@
 {
   programs.git = {
   	enable = true;
-	config = {
-		init.defaultBranch = "master";
-	};
+	  config = {
+		  init.defaultBranch = "master";
+      pull.rebase = true;
+	  };
   };
 }
