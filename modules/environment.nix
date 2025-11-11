@@ -15,5 +15,6 @@
     openal
     steam-run
     protonup
+    docker
   ];
 }

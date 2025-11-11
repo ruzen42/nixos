@@ -3,7 +3,7 @@
 {
   services.xserver.videoDrivers = [ "amdgpu" ];
   services.displayManager.sddm.enable = true;
-  services.displayManager.sddm.theme = "sddm-tokyonight-theme";
+  services.displayManager.sddm.theme = "sddm-sugar-dark-theme";
   services.xserver.enable = true;
   services.xserver.xkb.layout = "us,ru";
   services.xserver.xkb.variant = "dvorak,";

@@ -6,4 +6,5 @@
     remotePlay.openFirewall = true; 
     dedicatedServer.openFirewall = true; 
   }; 
+  programs.zsh.enable = true;
 }

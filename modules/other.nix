@@ -9,8 +9,8 @@
     font = "FiraCode";
     useXkbConfig = true; 
   };
-
-  programs.zsh.enable = true;
+  
+  virtualisation.docker.enable = true;
 
   system.copySystemConfiguration = false; # RISK
   system.stateVersion = "25.05"; 

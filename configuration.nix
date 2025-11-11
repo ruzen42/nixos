@@ -3,6 +3,7 @@
 {
   imports =
     [ 
+      ./modules/sddm.nix 
       ./hardware-configuration.nix
       ./programs/git.nix
       ./modules/boot.nix
