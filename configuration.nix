@@ -3,7 +3,6 @@
 {
   imports =
     [ 
-      ./modules/sddm.nix 
       ./hardware-configuration.nix
       ./programs/git.nix
       ./modules/boot.nix
@@ -13,6 +12,7 @@
       ./modules/users.nix
       ./modules/other.nix
       ./modules/programs.nix
+      ./modules/gui.nix
     ];
 }
 

@@ -29,8 +29,11 @@
        dina-font
        proggyfonts       
        dotnet-sdk_9
-       xmobar
+       thunderbird
+       haskellPackages.stack
+       xfce.thunar-bare
        qt5.qtquickcontrols2 
+       qt5.qtgraphicaleffects 
        qt5.qtgraphicaleffects 
        qt5.qtsvg
      ];
