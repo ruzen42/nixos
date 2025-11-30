@@ -17,8 +17,11 @@
        jetbrains.rider
        btop
        telegram-desktop
+       gsettings-desktop-schemas
        picom
        feh 
+       vesktop
+       calibre
        noto-fonts
        noto-fonts-cjk-sans
        noto-fonts-emoji
@@ -28,14 +31,16 @@
        mplus-outline-fonts.githubRelease
        dina-font
        proggyfonts       
-       dotnet-sdk_9
+       dotnet-sdk_10
        thunderbird
+       libreoffice-qt
        haskellPackages.stack
        xfce.thunar-bare
        qt5.qtquickcontrols2 
        qt5.qtgraphicaleffects 
        qt5.qtgraphicaleffects 
        qt5.qtsvg
+       haskellPackages.haskell-language-server
      ];
      shell = pkgs.zsh;
   };

@@ -12,7 +12,6 @@
       ./modules/users.nix
       ./modules/other.nix
       ./modules/programs.nix
-      ./modules/gui.nix
     ];
 }
 
