@@ -16,6 +16,8 @@
        flameshot 
        jetbrains.rider
        btop
+       steam-run
+       protonup-ng
        telegram-desktop
        gsettings-desktop-schemas
        picom
@@ -24,7 +26,7 @@
        calibre
        noto-fonts
        noto-fonts-cjk-sans
-       noto-fonts-emoji
+       noto-fonts-color-emoji
        liberation_ttf
        fira-code
        fira-code-symbols

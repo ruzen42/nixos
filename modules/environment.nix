@@ -10,11 +10,10 @@
 
   environment.systemPackages = with pkgs; [
     neovim
-    wget
+    fira-code
+    wget2
     git
     openal
-    steam-run
-    protonup
     docker
   ];
 }
