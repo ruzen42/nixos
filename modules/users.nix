@@ -36,7 +36,6 @@
        dotnet-sdk_10
        thunderbird
        libreoffice-qt
-       haskellPackages.stack
        xfce.thunar-bare
        qt5.qtquickcontrols2 
        qt5.qtgraphicaleffects 
